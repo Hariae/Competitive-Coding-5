@@ -1,4 +1,12 @@
-import java.util.HashSet;
+/**
+ * Time Complexity: O(m*m)
+ * Space Complexity: O(k) - extra space for hashset to store current col/row/box values
+ * Idea: 
+ * 1. Check for three cases row, col and box wise for duplicates. 
+ * Leetcode: Yes
+ */
+
+import java.util.*;
 
 class ValidSudoku {
 
