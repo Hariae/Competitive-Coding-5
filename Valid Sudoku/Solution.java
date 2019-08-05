@@ -1,5 +1,5 @@
 /**
- * Time Complexity: O(m*m)
+ * Time Complexity: O(m*m*m)
  * Space Complexity: O(k) - extra space for hashset to store current col/row/box values
  * Idea: 
  * 1. Check for three cases row, col and box wise for duplicates. 
